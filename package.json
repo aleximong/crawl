@@ -1,0 +1,38 @@
+{
+  "name": "crawler-app",
+  "version": "1.0.0",
+  "description": "crawler any site",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha tests/taronto.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vmdao/farmer.git"
+  },
+  "author": "daominh",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "config": "^1.25.1",
+    "crawler": "^1.0.3",
+    "express": "^4.15.2",
+    "js-yaml": "^3.8.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "moment": "^2.17.1",
+    "mongoose": "^4.8.6",
+    "mongoose-timestamp": "^0.6.0",
+    "node-horseman": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "swagger-editor": "^2.10.5",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
